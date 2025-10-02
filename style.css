@@ -36,6 +36,20 @@
     grid-column: 2/3;
     background-color: white;
 }
+.nav img { 
+        height: 5vh;
+    width: 5vh;
+
+}
+.nav input { 
+    border-radius: 20px;
+
+}
+#icon  { 
+    width: 5vw ;
+    height: auto;
+    border-radius: 50px;
+}
 .sidebar { 
     background-color: #1992d4;
     grid-column: 1/2;
@@ -53,6 +67,9 @@
     width: 80%;
     display: grid ;
     padding: 1.5rem;
+}
+.sidebar div  { 
+    text-wrap: nowrap;
 }
 .menu1 { 
     grid-template-rows: repeat(5,1fr);
@@ -198,6 +215,12 @@ button  {
     color: white;
 }
 .menu1 img  { 
+    height: 5vh;
+    width: 5vh;
+    margin: 20px;
+
+}
+.menu2 img  { 
     height: 5vh;
     width: 5vh;
     margin: 20px;
